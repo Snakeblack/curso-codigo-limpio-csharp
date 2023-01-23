@@ -16,14 +16,17 @@ namespace ToDo
                 variable = ShowMainMenu();
                 if (variable == 1)
                 {
+                    Console.Clear();
                     ShowMenuAdd();
                 }
                 else if (variable == 2)
                 {
+                    Console.Clear();
                     ShowMenuDos();
                 }
                 else if (variable == 3)
                 {
+                    Console.Clear();
                     ShowMenuTres();
                 }
             } while (variable != 4);
